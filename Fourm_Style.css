@@ -1,0 +1,190 @@
+/* universel selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin-top: 5vh;
+  background-image: url(./img/Fourm_BG.jpg); /* background image location*/
+  background-position: center;
+  background-size: cover;
+  font-size: 10px;
+}
+/* ID selctor for form heading */
+#heading {
+  width: 80vh;
+  margin: auto;
+  margin-top: 45px;
+  margin: auto;
+  color: #282a36;
+  font-weight: bolder;
+  background-color: rgba(72, 191, 145, 0.5);
+  padding: 10px 0 10px 0;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80vh;
+  margin: auto;
+  color: aliceblue;
+  padding: 2rem 0 0 1rem;
+  border-radius: 0 0 15px 15px;
+}
+/*form HTML elemant selector*/
+form {
+  padding: 3rem;
+}
+/*input elemants id selectors*/
+#Name-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+
+#Reg-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+
+#DOB-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+#Contact-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+
+#email-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+
+#Contact-Input {
+  position: relative;
+  left: 15rem;
+  top: -1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 22px;
+  font-size: 1rem;
+  width: 15rem;
+}
+/*drop down element id selector*/
+#option {
+  position: relative;
+  left: 15rem;
+  top: -1.2rem;
+  line-height: 1.5rem;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  width: 255px;
+  overflow: hidden;
+  width: 15rem;
+}
+
+#graduated {
+  margin: 25px;
+}
+.select {
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 0.7rem;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+/* radio button elemant class selecor*/
+.select input {
+  width: 0.9rem;
+  height: 0.9rem;
+  cursor: pointer;
+  outline: none;
+}
+
+/* confirm button id selector*/
+#confirm {
+  background-color: rgb(72, 191, 145);
+  width: 5rem;
+  height: 2rem;
+  display: block;
+  margin: 25px 0 0 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #366473;
+}
+.container {
+  margin-top: 1rem;
+}
+/*home button id selector*/
+#home-button {
+  width: 5rem;
+  height: 2rem;
+  display: block;
+  margin: 25px 0 0 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #366473;
+  position: relative;
+  top: -3.6rem;
+  left: 22rem;
+  background-color: #ffb86c;
+}
+#fourm-data {
+  /* display: none; */
+  margin: 100px;
+  position: relative;
+  left: 250px;
+}
+
+/* table selctor*/
+table {
+  width: 50%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table th {
+  background-color: rgba(72, 191, 145, 0.3);
+}
+table td {
+  background-color: rgba(255, 255, 255, 0.5);
+}

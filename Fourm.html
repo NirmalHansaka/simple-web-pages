@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Fourm_Style.css">
+        <title>
+            Nirmal
+        </title>
+        <script src="./DataDisplayFunction.js"></script>
+    </head>
+    <body>
+        <div id="heading"><h1>survey form</h1></div>
+        <div class="main">
+            <!-- survey form start -->
+        <form>
+         
+            <!-- Name input -->
+                <h2 id="Name">Name</h2>
+                <input id="Name-Input" type="text" name="first_name"><br>
+               
+            
+            <div class="container">
+                <!-- Registration id input -->
+            <h2 class="lable-ID">Registration No</h2>
+            <input id="Reg-Input" type="number" name="registration_number"></div>
+
+            <div class="container">
+                <!-- Date of birth input field for age calculation  -->
+            <h2 class="lable-ID">DOB</h2>
+            <input id="DOB-Input" type="date" name="date_of_birth"></div>
+
+            <div class="container">
+                <!-- Email Address input -->
+            <h2 class="lable-ID">E-Mail</h2>
+            <input id = "email-Input" type="email" name="email_address"></div>
+
+            <div class="container">
+                <!-- Contact number input area -->
+            <h2 class="lable-ID">Contact Number</h2>
+            <input id="Contact-Input" type="number" name="contact_number"></div>
+
+            <div class="container">
+                <!-- User can select reletive coures from drop down list -->
+            <h2 class="lable-ID">Programe</h2>
+            <select id="option" name="programe">
+                <option>BSC</option>
+                <option>DIST</option>
+                <option>BTEC</option>
+            </select>
+        </div>
+
+        <!-- two radio buttons for choos graduated of not data will get from java script file -->
+
+            <h2 class="lable-ID">Graduated</h2>
+            <label class="select">
+            <input id="radio-one" type="radio" name="Graduated" value="Yes" checked><span></span>
+            Yes
+            </label>
+            
+            <label class="select">
+            <input id="radio-two" type="radio" name="Graduated" value="No"><span></span>
+             No
+            </label>
+
+            <!-- button for submit data after clicking data will show on table -->
+            <button type="button" id="confirm" onclick="displayData()">confirm</button>
+
+            <!-- button for return to home page -->
+            <button type="button" id="home-button" onclick="document.location='home.html'">Home</button>
+
+        </form>
+        <!-- form end -->
+        </div>
+
+        <!-- table start -->
+
+            <table id="fourm-data">
+                <!-- data get from fourm will show here  -->
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>registration Number</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Telephone Number</th>
+                    <th>Programe</th>
+                    <th>Graduated (Y/N)</th>
+                </tr>
+            </thead>
+            <tbody id="fourm-data-body"></tbody>
+            </table>
+        <!-- table close -->
+    </body>
+</html>
